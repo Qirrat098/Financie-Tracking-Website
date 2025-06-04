@@ -1,0 +1,32 @@
+Absolutely! Here's a **concise and complete project description** you can hand over to Cursor or any developer working with **HTML, JS, CSS, and PHP with MySQL (phpMyAdmin using XAMPP)**:
+
+---
+
+### **Adviso - Financial Literacy, Tax Solutions, and Financial Planning**
+
+**Project Description:**
+Adviso is a **web-based platform** designed to help individuals and businesses improve financial literacy, access expert tax solutions, and manage personalized financial plans. It offers a **user-friendly interface** with educational resources (articles, tutorials), interactive calculators for tax savings and financial planning, personalized dashboards, and secure user authentication. The system includes a **backend powered by PHP with a MySQL database** (via phpMyAdmin in XAMPP) to manage user data, financial resources, and transactions. The frontend will use **HTML, CSS, and JavaScript** to create a responsive and engaging user experience.
+
+---
+
+### **Key Features**
+
+✅ **User Registration & Authentication** – Secure sign-up and login with session handling.
+✅ **Financial Literacy Hub** – Access articles, tutorials, and guides on finance, taxes, and budgeting.
+✅ **Tax Solutions & Planning** – Interactive tax-saving strategies and planning tools for individuals and businesses.
+✅ **Personalized Dashboard** – User-specific financial data, insights, and recommendations.
+✅ **Interactive Calculators** – Tools for tax calculations, financial planning, and goal tracking.
+✅ **Real-Time Data Display** – Dynamic content updates based on backend data.
+
+---
+
+### **Technical Details**
+
+* **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
+* **Backend:** PHP (with MySQL)
+* **Database:** MySQL (phpMyAdmin in XAMPP)
+* **Hosting/Testing:** Localhost on XAMPP
+
+---
+
+Would you like me to **break it down into folder structure and files** too, so the developer knows exactly what to create? Or provide **sample code for the key pages** like login, dashboard, and calculators?
