@@ -1,0 +1,1107 @@
+[2025-06-04 10:44:20] User ID: 3, Article ID: 8 - Article loaded for editing. Current status: 
+[2025-06-04 10:45:00] User ID: 3, Article ID: 8 - Article loaded for editing. Current status: 
+[2025-06-04 10:45:00] User ID: 3, Article ID: 8 - Form submitted. New status: pending
+[2025-06-04 10:45:00] User ID: 3, Article ID: 8 - Article updated successfully. New status: pending
+[2025-06-04 10:45:46] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:46:00] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:46:00] User ID: 3, Article ID: 7 - Form submitted. New status: pending
+[2025-06-04 10:46:00] User ID: 3, Article ID: 7 - Article updated successfully. New status: pending
+[2025-06-04 10:46:07] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:46:37] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:46:37] User ID: 3, Article ID: 7 - Form submitted. New status: pending
+[2025-06-04 10:46:37] User ID: 3, Article ID: 7 - Article updated successfully. New status: pending
+[2025-06-04 10:48:02] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:48:07] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:48:07] User ID: 3, Article ID: 7 - Form submitted with POST data: Array
+(
+    [title] => Investment
+    [category_id] => 2
+    [content] => <p>invest a lot!</p>
+    [status] => pending
+)
+
+[2025-06-04 10:48:07] User ID: 3, Article ID: 7 - Initial status value: pending
+[2025-06-04 10:48:07] User ID: 3, Article ID: 7 - Values before update - Title: Investment, Category: 2, Status: pending
+[2025-06-04 10:48:07] User ID: 3, Article ID: 7 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='Investment', content='[content]', category_id=2, status='pending', id=7, author_id=3
+[2025-06-04 10:48:07] User ID: 3, Article ID: 7 - Article updated. New status in database: 
+[2025-06-04 10:49:59] User ID: 3, Article ID: 8 - Article loaded for editing. Current status: 
+[2025-06-04 10:50:29] User ID: 3, Article ID: 8 - Article loaded for editing. Current status: 
+[2025-06-04 10:50:29] User ID: 3, Article ID: 8 - Form submitted with POST data: Array
+(
+    [title] => new investment
+    [category_id] => 2
+    [content] => <p>invest kro!!</p>
+    [status] => pending
+)
+
+[2025-06-04 10:50:29] User ID: 3, Article ID: 8 - Initial status value: pending
+[2025-06-04 10:50:29] User ID: 3, Article ID: 8 - Status forced to pending
+[2025-06-04 10:50:29] User ID: 3, Article ID: 8 - Values before update - Title: new investment, Category: 2, Status: pending
+[2025-06-04 10:50:29] User ID: 3, Article ID: 8 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='new investment', content='[content]', category_id=2, status='pending', id=8, author_id=3
+[2025-06-04 10:50:29] User ID: 3, Article ID: 8 - Article updated. New status in database: 
+[2025-06-04 10:51:19] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:51:56] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:53:10] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:53:12] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:53:12] User ID: 3, Article ID: 7 - Form submitted with POST data: Array
+(
+    [title] => Investment
+    [category_id] => 2
+    [content] => <p>invest a lot!</p>
+    [status] => pending
+)
+
+[2025-06-04 10:53:12] User ID: 3, Article ID: 7 - Initial status value: pending
+[2025-06-04 10:53:12] User ID: 3, Article ID: 7 - Values before update - Title: Investment, Category: 2, Status: pending
+[2025-06-04 10:53:12] User ID: 3, Article ID: 7 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='Investment', content='[content]', category_id=2, status='pending', id=7, author_id=3
+[2025-06-04 10:53:12] User ID: 3, Article ID: 7 - Article updated. New status in database: 
+[2025-06-04 10:53:20] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:53:23] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:53:23] User ID: 3, Article ID: 7 - Form submitted with POST data: Array
+(
+    [title] => Investment
+    [category_id] => 2
+    [content] => <p>invest a lot!</p>
+    [status] => pending
+)
+
+[2025-06-04 10:53:23] User ID: 3, Article ID: 7 - Initial status value: pending
+[2025-06-04 10:53:23] User ID: 3, Article ID: 7 - Values before update - Title: Investment, Category: 2, Status: pending
+[2025-06-04 10:53:23] User ID: 3, Article ID: 7 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='Investment', content='[content]', category_id=2, status='pending', id=7, author_id=3
+[2025-06-04 10:53:24] User ID: 3, Article ID: 7 - Article updated. New status in database: 
+[2025-06-04 10:54:31] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:54:35] User ID: 3, Article ID: 7 - Article loaded for editing. Current status: 
+[2025-06-04 10:54:35] User ID: 3, Article ID: 7 - Form submitted with POST data: Array
+(
+    [title] => Investment
+    [category_id] => 2
+    [content] => <p>invest a lot!</p>
+    [status] => pending
+)
+
+[2025-06-04 10:54:35] User ID: 3, Article ID: 7 - Initial status value: pending
+[2025-06-04 10:54:35] User ID: 3, Article ID: 7 - Values before update - Title: Investment, Category: 2, Status: pending
+[2025-06-04 10:54:35] User ID: 3, Article ID: 7 - Current status in database before update: 
+[2025-06-04 10:54:35] User ID: 3, Article ID: 7 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='Investment', content='[content]', category_id=2, status='pending', id=7, author_id=3
+[2025-06-04 10:54:35] User ID: 3, Article ID: 7 - Article updated. New status in database: 
+[2025-06-04 10:54:35] User ID: 3, Article ID: 7 - WARNING: Status mismatch! Expected: pending, Got: 
+[2025-06-04 10:55:16] User ID: 3, Article ID: 9 - Article loaded for editing. Current status: draft
+[2025-06-04 10:55:20] User ID: 3, Article ID: 9 - Article loaded for editing. Current status: draft
+[2025-06-04 10:55:20] User ID: 3, Article ID: 9 - Form submitted with POST data: Array
+(
+    [title] => fixxing the error!
+    [category_id] => 2
+    [content] => <p>l;kjlajksdjf;asjdflksdl;fjhskjdf</p>
+    [status] => pending
+)
+
+[2025-06-04 10:55:20] User ID: 3, Article ID: 9 - Initial status value: pending
+[2025-06-04 10:55:20] User ID: 3, Article ID: 9 - Values before update - Title: fixxing the error!, Category: 2, Status: pending
+[2025-06-04 10:55:20] User ID: 3, Article ID: 9 - Current status in database before update: draft
+[2025-06-04 10:55:20] User ID: 3, Article ID: 9 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='fixxing the error!', content='[content]', category_id=2, status='pending', id=9, author_id=3
+[2025-06-04 10:55:20] User ID: 3, Article ID: 9 - Article updated. New status in database: 
+[2025-06-04 10:55:20] User ID: 3, Article ID: 9 - WARNING: Status mismatch! Expected: pending, Got: 
+[2025-06-04 10:55:27] User ID: 3, Article ID: 9 - Article loaded for editing. Current status: 
+[2025-06-04 10:55:31] User ID: 3, Article ID: 9 - Article loaded for editing. Current status: 
+[2025-06-04 10:55:31] User ID: 3, Article ID: 9 - Form submitted with POST data: Array
+(
+    [title] => fixxing the error!
+    [category_id] => 2
+    [content] => <p>l;kjlajksdjf;asjdflksdl;fjhskjdf</p>
+    [status] => draft
+)
+
+[2025-06-04 10:55:31] User ID: 3, Article ID: 9 - Initial status value: draft
+[2025-06-04 10:55:31] User ID: 3, Article ID: 9 - Values before update - Title: fixxing the error!, Category: 2, Status: draft
+[2025-06-04 10:55:31] User ID: 3, Article ID: 9 - Current status in database before update: 
+[2025-06-04 10:55:31] User ID: 3, Article ID: 9 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='fixxing the error!', content='[content]', category_id=2, status='draft', id=9, author_id=3
+[2025-06-04 10:55:31] User ID: 3, Article ID: 9 - Article updated. New status in database: 
+[2025-06-04 10:55:31] User ID: 3, Article ID: 9 - WARNING: Status mismatch! Expected: draft, Got: 
+[2025-06-04 10:59:33] User ID: 3, Article ID: 9 - Article loaded for editing. Current status: 
+[2025-06-04 10:59:41] User ID: 3, Article ID: 9 - Article loaded for editing. Current status: 
+[2025-06-04 10:59:41] User ID: 3, Article ID: 9 - Form submitted with POST data: Array
+(
+    [article_id] => 9
+    [title] => fixxing the error!
+    [category_id] => 2
+    [content] => <p>l;kjlajksdjf;asjdflksdl;fjhskjdf</p>
+    [status] => pending
+)
+
+[2025-06-04 10:59:41] User ID: 3, Article ID: 9 - Initial status value: pending
+[2025-06-04 10:59:41] User ID: 3, Article ID: 9 - Values before update - Title: fixxing the error!, Category: 2, Status: pending
+[2025-06-04 10:59:41] User ID: 3, Article ID: 9 - Current article data: Array
+(
+    [id] => 9
+    [title] => fixxing the error!
+    [slug] => fixxing-the-error-
+    [content] => <p>l;kjlajksdjf;asjdflksdl;fjhskjdf</p>
+    [author_id] => 3
+    [category_id] => 2
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 15:55:08
+    [updated_at] => 2025-06-04 15:55:31
+)
+
+[2025-06-04 10:59:41] User ID: 3, Article ID: 9 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='fixxing the error!', content='[content]', category_id=2, status='pending', id=9, author_id=3
+[2025-06-04 10:59:41] User ID: 3, Article ID: 9 - Article updated. New data: Array
+(
+    [id] => 9
+    [title] => fixxing the error!
+    [slug] => fixxing-the-error-
+    [content] => <p>l;kjlajksdjf;asjdflksdl;fjhskjdf</p>
+    [author_id] => 3
+    [category_id] => 2
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 15:55:08
+    [updated_at] => 2025-06-04 15:59:41
+)
+
+[2025-06-04 10:59:41] User ID: 3, Article ID: 9 - WARNING: Status mismatch! Expected: pending, Got: 
+[2025-06-04 11:00:13] User ID: 3, Article ID: 10 - Article loaded for editing. Current status: pending
+[2025-06-04 11:00:17] User ID: 3, Article ID: 10 - Article loaded for editing. Current status: pending
+[2025-06-04 11:00:17] User ID: 3, Article ID: 10 - Form submitted with POST data: Array
+(
+    [article_id] => 10
+    [title] => Hello
+    [category_id] => 4
+    [content] => <p>how are you!</p>
+    [status] => draft
+)
+
+[2025-06-04 11:00:17] User ID: 3, Article ID: 10 - Initial status value: draft
+[2025-06-04 11:00:17] User ID: 3, Article ID: 10 - Values before update - Title: Hello, Category: 4, Status: draft
+[2025-06-04 11:00:17] User ID: 3, Article ID: 10 - Current article data: Array
+(
+    [id] => 10
+    [title] => Hello
+    [slug] => hello
+    [content] => <p>how are you!</p>
+    [author_id] => 3
+    [category_id] => 4
+    [status] => pending
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:00:10
+    [updated_at] => 2025-06-04 16:00:10
+)
+
+[2025-06-04 11:00:17] User ID: 3, Article ID: 10 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='Hello', content='[content]', category_id=4, status='draft', id=10, author_id=3
+[2025-06-04 11:00:17] User ID: 3, Article ID: 10 - Article updated. New data: Array
+(
+    [id] => 10
+    [title] => Hello
+    [slug] => hello
+    [content] => <p>how are you!</p>
+    [author_id] => 3
+    [category_id] => 4
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:00:10
+    [updated_at] => 2025-06-04 16:00:17
+)
+
+[2025-06-04 11:00:17] User ID: 3, Article ID: 10 - WARNING: Status mismatch! Expected: draft, Got: 
+[2025-06-04 11:00:19] User ID: 3, Article ID: 10 - Article loaded for editing. Current status: 
+[2025-06-04 11:00:22] User ID: 3, Article ID: 10 - Article loaded for editing. Current status: 
+[2025-06-04 11:00:22] User ID: 3, Article ID: 10 - Form submitted with POST data: Array
+(
+    [article_id] => 10
+    [title] => Hello
+    [category_id] => 4
+    [content] => <p>how are you!</p>
+    [status] => pending
+)
+
+[2025-06-04 11:00:22] User ID: 3, Article ID: 10 - Initial status value: pending
+[2025-06-04 11:00:22] User ID: 3, Article ID: 10 - Values before update - Title: Hello, Category: 4, Status: pending
+[2025-06-04 11:00:22] User ID: 3, Article ID: 10 - Current article data: Array
+(
+    [id] => 10
+    [title] => Hello
+    [slug] => hello
+    [content] => <p>how are you!</p>
+    [author_id] => 3
+    [category_id] => 4
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:00:10
+    [updated_at] => 2025-06-04 16:00:17
+)
+
+[2025-06-04 11:00:22] User ID: 3, Article ID: 10 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='Hello', content='[content]', category_id=4, status='pending', id=10, author_id=3
+[2025-06-04 11:00:22] User ID: 3, Article ID: 10 - Article updated. New data: Array
+(
+    [id] => 10
+    [title] => Hello
+    [slug] => hello
+    [content] => <p>how are you!</p>
+    [author_id] => 3
+    [category_id] => 4
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:00:10
+    [updated_at] => 2025-06-04 16:00:22
+)
+
+[2025-06-04 11:00:22] User ID: 3, Article ID: 10 - WARNING: Status mismatch! Expected: pending, Got: 
+[2025-06-04 11:01:49] User ID: 3, Article ID: 10 - Article loaded for editing. Current status: 
+[2025-06-04 11:01:51] User ID: 3, Article ID: 10 - Article loaded for editing. Current status: 
+[2025-06-04 11:01:51] User ID: 3, Article ID: 10 - Form submitted with POST data: Array
+(
+    [article_id] => 10
+    [title] => Hello
+    [category_id] => 4
+    [content] => <p>how are you!</p>
+    [status] => draft
+)
+
+[2025-06-04 11:01:51] User ID: 3, Article ID: 10 - Initial status value: draft
+[2025-06-04 11:01:51] User ID: 3, Article ID: 10 - Values before update - Title: Hello, Category: 4, Status: draft
+[2025-06-04 11:01:51] User ID: 3, Article ID: 10 - Current article data: Array
+(
+    [id] => 10
+    [title] => Hello
+    [slug] => hello
+    [content] => <p>how are you!</p>
+    [author_id] => 3
+    [category_id] => 4
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:00:10
+    [updated_at] => 2025-06-04 16:00:22
+)
+
+[2025-06-04 11:01:51] User ID: 3, Article ID: 10 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='Hello', content='[content]', category_id=4, status='draft', id=10, author_id=3
+[2025-06-04 11:01:51] User ID: 3, Article ID: 10 - Article updated. New data: Array
+(
+    [id] => 10
+    [title] => Hello
+    [slug] => hello
+    [content] => <p>how are you!</p>
+    [author_id] => 3
+    [category_id] => 4
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:00:10
+    [updated_at] => 2025-06-04 16:01:51
+)
+
+[2025-06-04 11:01:51] User ID: 3, Article ID: 10 - WARNING: Status mismatch! Expected: draft, Got: 
+[2025-06-04 11:02:09] User ID: 3, Article ID: 11 - Article loaded for editing. Current status: pending
+[2025-06-04 11:02:11] User ID: 3, Article ID: 11 - Article loaded for editing. Current status: pending
+[2025-06-04 11:02:11] User ID: 3, Article ID: 11 - Form submitted with POST data: Array
+(
+    [article_id] => 11
+    [title] => HEllo
+    [category_id] => 8
+    [content] => <p>jkhlfkjlsflaj</p>
+    [status] => pending
+)
+
+[2025-06-04 11:02:11] User ID: 3, Article ID: 11 - Initial status value: pending
+[2025-06-04 11:02:11] User ID: 3, Article ID: 11 - Values before update - Title: HEllo, Category: 8, Status: pending
+[2025-06-04 11:02:11] User ID: 3, Article ID: 11 - Current article data: Array
+(
+    [id] => 11
+    [title] => HEllo
+    [slug] => hello
+    [content] => <p>jkhlfkjlsflaj</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => pending
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:02:07
+    [updated_at] => 2025-06-04 16:02:07
+)
+
+[2025-06-04 11:02:11] User ID: 3, Article ID: 11 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='HEllo', content='[content]', category_id=8, status='pending', id=11, author_id=3
+[2025-06-04 11:02:11] User ID: 3, Article ID: 11 - Article updated. New data: Array
+(
+    [id] => 11
+    [title] => HEllo
+    [slug] => hello
+    [content] => <p>jkhlfkjlsflaj</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:02:07
+    [updated_at] => 2025-06-04 16:02:11
+)
+
+[2025-06-04 11:02:11] User ID: 3, Article ID: 11 - WARNING: Status mismatch! Expected: pending, Got: 
+[2025-06-04 11:03:19] User ID: 3, Article ID: 11 - Article loaded for editing. Current status: 
+[2025-06-04 11:03:25] User ID: 3, Article ID: 11 - Article loaded for editing. Current status: 
+[2025-06-04 11:03:25] User ID: 3, Article ID: 11 - Form submitted with POST data: Array
+(
+    [article_id] => 11
+    [title] => HEllo
+    [category_id] => 8
+    [content] => <p>jkhlfkjlsflaj</p>
+    [status] => 
+)
+
+[2025-06-04 11:03:25] User ID: 3, Article ID: 11 - Initial status value: 
+[2025-06-04 11:03:25] User ID: 3, Article ID: 11 - Invalid status attempted: , defaulting to draft
+[2025-06-04 11:03:25] User ID: 3, Article ID: 11 - Values before update - Title: HEllo, Category: 8, Status: draft
+[2025-06-04 11:03:25] User ID: 3, Article ID: 11 - Current article data: Array
+(
+    [id] => 11
+    [title] => HEllo
+    [slug] => hello
+    [content] => <p>jkhlfkjlsflaj</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:02:07
+    [updated_at] => 2025-06-04 16:02:11
+)
+
+[2025-06-04 11:03:25] User ID: 3, Article ID: 11 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='HEllo', content='[content]', category_id=8, status='draft', id=11, author_id=3
+[2025-06-04 11:03:25] User ID: 3, Article ID: 11 - Article updated. New data: Array
+(
+    [id] => 11
+    [title] => HEllo
+    [slug] => hello
+    [content] => <p>jkhlfkjlsflaj</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:02:07
+    [updated_at] => 2025-06-04 16:03:25
+)
+
+[2025-06-04 11:03:25] User ID: 3, Article ID: 11 - WARNING: Status mismatch! Expected: draft, Got: 
+[2025-06-04 11:03:28] User ID: 3, Article ID: 11 - Article loaded for editing. Current status: 
+[2025-06-04 11:04:17] User ID: 3, Article ID: 11 - Article loaded for editing. Current status: 
+[2025-06-04 11:04:22] User ID: 3, Article ID: 11 - Article loaded for editing. Current status: 
+[2025-06-04 11:04:22] User ID: 3, Article ID: 11 - Form submitted with POST data: Array
+(
+    [article_id] => 11
+    [title] => HEllo
+    [category_id] => 8
+    [content] => <p>jkhlfkjlsflaj</p>
+    [status] => pending
+)
+
+[2025-06-04 11:04:22] User ID: 3, Article ID: 11 - Initial status value: pending
+[2025-06-04 11:04:22] User ID: 3, Article ID: 11 - Values before update - Title: HEllo, Category: 8, Status: pending
+[2025-06-04 11:04:22] User ID: 3, Article ID: 11 - Current article data: Array
+(
+    [id] => 11
+    [title] => HEllo
+    [slug] => hello
+    [content] => <p>jkhlfkjlsflaj</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:02:07
+    [updated_at] => 2025-06-04 16:03:25
+)
+
+[2025-06-04 11:04:22] User ID: 3, Article ID: 11 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='HEllo', content='[content]', category_id=8, status='pending', id=11, author_id=3
+[2025-06-04 11:04:22] User ID: 3, Article ID: 11 - Article updated. New data: Array
+(
+    [id] => 11
+    [title] => HEllo
+    [slug] => hello
+    [content] => <p>jkhlfkjlsflaj</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:02:07
+    [updated_at] => 2025-06-04 16:04:22
+)
+
+[2025-06-04 11:04:22] User ID: 3, Article ID: 11 - WARNING: Status mismatch! Expected: pending, Got: 
+[2025-06-04 11:04:26] User ID: 3, Article ID: 11 - Article loaded for editing. Current status: 
+[2025-06-04 11:05:30] User ID: 3, Article ID: 12 - Article loaded for editing. Current status: pending
+[2025-06-04 11:05:35] User ID: 3, Article ID: 12 - Article loaded for editing. Current status: pending
+[2025-06-04 11:05:35] User ID: 3, Article ID: 12 - Form submitted with POST data: Array
+(
+    [article_id] => 12
+    [title] => Hello
+    [category_id] => 4
+    [content] => <p>ksflkasfl;kjasdlfkjj</p>
+    [status] => pending
+)
+
+[2025-06-04 11:05:35] User ID: 3, Article ID: 12 - Initial status value: pending
+[2025-06-04 11:05:35] User ID: 3, Article ID: 12 - Values before update - Title: Hello, Category: 4, Status: pending
+[2025-06-04 11:05:35] User ID: 3, Article ID: 12 - Current article data: Array
+(
+    [id] => 12
+    [title] => Hello
+    [slug] => hello
+    [content] => <p>ksflkasfl;kjasdlfkjj</p>
+    [author_id] => 3
+    [category_id] => 4
+    [status] => pending
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:05:28
+    [updated_at] => 2025-06-04 16:05:28
+)
+
+[2025-06-04 11:05:35] User ID: 3, Article ID: 12 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='Hello', content='[content]', category_id=4, status='pending', id=12, author_id=3
+[2025-06-04 11:05:35] User ID: 3, Article ID: 12 - Article updated. New data: Array
+(
+    [id] => 12
+    [title] => Hello
+    [slug] => hello
+    [content] => <p>ksflkasfl;kjasdlfkjj</p>
+    [author_id] => 3
+    [category_id] => 4
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:05:28
+    [updated_at] => 2025-06-04 16:05:35
+)
+
+[2025-06-04 11:05:35] User ID: 3, Article ID: 12 - WARNING: Status mismatch! Expected: pending, Got: 
+[2025-06-04 11:06:31] User ID: 3, Article ID: 12 - Article loaded for editing. Current status: 
+[2025-06-04 11:06:34] User ID: 3, Article ID: 12 - Article loaded for editing. Current status: 
+[2025-06-04 11:06:34] User ID: 3, Article ID: 12 - Form submitted with POST data: Array
+(
+    [article_id] => 12
+    [title] => Hello
+    [category_id] => 4
+    [content] => <p>ksflkasfl;kjasdlfkjj</p>
+    [status] => draft
+)
+
+[2025-06-04 11:06:34] User ID: 3, Article ID: 12 - Initial status value: draft
+[2025-06-04 11:06:34] User ID: 3, Article ID: 12 - Values before update - Title: Hello, Category: 4, Status: draft
+[2025-06-04 11:06:34] User ID: 3, Article ID: 12 - Current article data: Array
+(
+    [id] => 12
+    [title] => Hello
+    [slug] => hello
+    [content] => <p>ksflkasfl;kjasdlfkjj</p>
+    [author_id] => 3
+    [category_id] => 4
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:05:28
+    [updated_at] => 2025-06-04 16:05:35
+)
+
+[2025-06-04 11:06:34] User ID: 3, Article ID: 12 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='Hello', content='[content]', category_id=4, status='draft', id=12, author_id=3
+[2025-06-04 11:06:34] User ID: 3, Article ID: 12 - Article updated. New data: Array
+(
+    [id] => 12
+    [title] => Hello
+    [slug] => hello
+    [content] => <p>ksflkasfl;kjasdlfkjj</p>
+    [author_id] => 3
+    [category_id] => 4
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:05:28
+    [updated_at] => 2025-06-04 16:06:34
+)
+
+[2025-06-04 11:06:34] User ID: 3, Article ID: 12 - WARNING: Status mismatch! Expected: draft, Got: 
+[2025-06-04 11:06:36] User ID: 3, Article ID: 12 - Article loaded for editing. Current status: 
+[2025-06-04 11:06:54] User ID: 3, Article ID: 12 - Article loaded for editing. Current status: 
+[2025-06-04 11:06:58] User ID: 3, Article ID: 12 - Article loaded for editing. Current status: 
+[2025-06-04 11:06:58] User ID: 3, Article ID: 12 - Form submitted with POST data: Array
+(
+    [article_id] => 12
+    [title] => Hello
+    [category_id] => 4
+    [content] => <p>ksflkasfl;kjasdlfkjj</p>
+    [status] => draft
+)
+
+[2025-06-04 11:06:58] User ID: 3, Article ID: 12 - Initial status value: draft
+[2025-06-04 11:06:58] User ID: 3, Article ID: 12 - Values before update - Title: Hello, Category: 4, Status: draft
+[2025-06-04 11:06:58] User ID: 3, Article ID: 12 - Current article data: Array
+(
+    [id] => 12
+    [title] => Hello
+    [slug] => hello
+    [content] => <p>ksflkasfl;kjasdlfkjj</p>
+    [author_id] => 3
+    [category_id] => 4
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:05:28
+    [updated_at] => 2025-06-04 16:06:34
+)
+
+[2025-06-04 11:06:58] User ID: 3, Article ID: 12 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='Hello', content='[content]', category_id=4, status='draft', id=12, author_id=3
+[2025-06-04 11:06:58] User ID: 3, Article ID: 12 - Article updated. New data: Array
+(
+    [id] => 12
+    [title] => Hello
+    [slug] => hello
+    [content] => <p>ksflkasfl;kjasdlfkjj</p>
+    [author_id] => 3
+    [category_id] => 4
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:05:28
+    [updated_at] => 2025-06-04 16:06:58
+)
+
+[2025-06-04 11:06:58] User ID: 3, Article ID: 12 - WARNING: Status mismatch! Expected: draft, Got: 
+[2025-06-04 11:09:54] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:09:56] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:09:56] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => draft
+)
+
+[2025-06-04 11:09:56] User ID: 3, Article ID: 13 - Initial status value: draft
+[2025-06-04 11:09:56] User ID: 3, Article ID: 13 - Values before update - Title: kjashdkjashlk, Category: 8, Status: draft
+[2025-06-04 11:09:56] User ID: 3, Article ID: 13 - Current article data: Array
+(
+    [id] => 13
+    [title] => kjashdkjashlk
+    [slug] => kjashdkjashlk
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => draft
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:09:52
+    [updated_at] => 2025-06-04 16:09:52
+)
+
+[2025-06-04 11:09:56] User ID: 3, Article ID: 13 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = COALESCE(?, 'draft'), 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='kjashdkjashlk', content='[content]', category_id=8, status='draft', id=13, author_id=3
+[2025-06-04 11:09:56] User ID: 3, Article ID: 13 - Article updated. New data: Array
+(
+    [id] => 13
+    [title] => kjashdkjashlk
+    [slug] => kjashdkjashlk
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:09:52
+    [updated_at] => 2025-06-04 16:09:56
+)
+
+[2025-06-04 11:09:56] User ID: 3, Article ID: 13 - WARNING: Status mismatch! Expected: draft, Got: 
+[2025-06-04 11:10:39] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:10:42] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:10:42] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => draft
+)
+
+[2025-06-04 11:10:42] User ID: 3, Article ID: 13 - Initial status value: draft
+[2025-06-04 11:10:42] User ID: 3, Article ID: 13 - Values before update - Title: kjashdkjashlk, Category: 8, Status: draft
+[2025-06-04 11:10:42] User ID: 3, Article ID: 13 - Current article data: Array
+(
+    [id] => 13
+    [title] => kjashdkjashlk
+    [slug] => kjashdkjashlk
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => draft
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:09:52
+    [updated_at] => 2025-06-04 16:10:27
+)
+
+[2025-06-04 11:10:42] User ID: 3, Article ID: 13 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = COALESCE(?, 'draft'), 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='kjashdkjashlk', content='[content]', category_id=8, status='draft', id=13, author_id=3
+[2025-06-04 11:10:42] User ID: 3, Article ID: 13 - Article updated. New data: Array
+(
+    [id] => 13
+    [title] => kjashdkjashlk
+    [slug] => kjashdkjashlk
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:09:52
+    [updated_at] => 2025-06-04 16:10:42
+)
+
+[2025-06-04 11:10:42] User ID: 3, Article ID: 13 - WARNING: Status mismatch! Expected: draft, Got: 
+[2025-06-04 11:12:41] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:12:43] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:12:43] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => draft
+)
+
+[2025-06-04 11:12:43] User ID: 3, Article ID: 13 - Initial status value: draft
+[2025-06-04 11:12:43] User ID: 3, Article ID: 13 - Values before update - Title: kjashdkjashlk, Category: 8, Status: draft
+[2025-06-04 11:12:43] User ID: 3, Article ID: 13 - Current article data: Array
+(
+    [id] => 13
+    [title] => kjashdkjashlk
+    [slug] => kjashdkjashlk
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:09:52
+    [updated_at] => 2025-06-04 16:10:42
+)
+
+[2025-06-04 11:12:43] User ID: 3, Article ID: 13 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='kjashdkjashlk', content='[content]', category_id=8, status='draft', id=13, author_id=3
+[2025-06-04 11:12:43] User ID: 3, Article ID: 13 - Article updated. New data: Array
+(
+    [id] => 13
+    [title] => kjashdkjashlk
+    [slug] => kjashdkjashlk
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:09:52
+    [updated_at] => 2025-06-04 16:12:43
+)
+
+[2025-06-04 11:12:43] User ID: 3, Article ID: 13 - WARNING: Status mismatch! Expected: draft, Got: 
+[2025-06-04 11:12:49] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:12:55] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:12:55] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => pending
+)
+
+[2025-06-04 11:12:55] User ID: 3, Article ID: 13 - Initial status value: pending
+[2025-06-04 11:12:55] User ID: 3, Article ID: 13 - Values before update - Title: kjashdkjashlk, Category: 8, Status: pending
+[2025-06-04 11:12:55] User ID: 3, Article ID: 13 - Current article data: Array
+(
+    [id] => 13
+    [title] => kjashdkjashlk
+    [slug] => kjashdkjashlk
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:09:52
+    [updated_at] => 2025-06-04 16:12:43
+)
+
+[2025-06-04 11:12:55] User ID: 3, Article ID: 13 - Executing SQL: UPDATE articles 
+                      SET title = ?, 
+                          content = ?, 
+                          category_id = ?, 
+                          status = ?, 
+                          updated_at = CURRENT_TIMESTAMP 
+                      WHERE id = ? AND author_id = ? with values: title='kjashdkjashlk', content='[content]', category_id=8, status='pending', id=13, author_id=3
+[2025-06-04 11:12:55] User ID: 3, Article ID: 13 - Article updated. New data: Array
+(
+    [id] => 13
+    [title] => kjashdkjashlk
+    [slug] => kjashdkjashlk
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [author_id] => 3
+    [category_id] => 8
+    [status] => 
+    [moderator_feedback] => 
+    [moderated_by] => 
+    [moderated_at] => 
+    [created_at] => 2025-06-04 16:09:52
+    [updated_at] => 2025-06-04 16:12:55
+)
+
+[2025-06-04 11:12:55] User ID: 3, Article ID: 13 - WARNING: Status mismatch! Expected: pending, Got: 
+[2025-06-04 11:14:44] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:14:48] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:14:48] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => pending
+)
+
+[2025-06-04 11:15:49] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:15:53] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:15:53] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => pending
+)
+
+[2025-06-04 11:16:59] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:17:04] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:17:04] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => draft
+)
+
+[2025-06-04 11:17:07] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:17:32] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:17:58] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:18:40] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:18:43] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:18:43] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => draft
+)
+
+[2025-06-04 11:21:06] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:21:10] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:21:10] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => pending
+)
+
+[2025-06-04 11:26:30] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:26:32] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:26:32] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => draft
+)
+
+[2025-06-04 11:28:49] User ID: 1, Article ID: 1 - Article loaded for editing. Current status: published
+[2025-06-04 11:29:41] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: revision_needed
+[2025-06-04 11:29:44] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: revision_needed
+[2025-06-04 11:29:44] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => draft
+)
+
+[2025-06-04 11:30:18] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: revision_needed
+[2025-06-04 11:33:27] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: revision_needed
+[2025-06-04 11:33:33] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: revision_needed
+[2025-06-04 11:33:33] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => draft
+)
+
+[2025-06-04 11:35:40] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:35:42] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:35:42] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => draft
+)
+
+[2025-06-04 11:35:49] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:35:52] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:35:52] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlk
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhl</p>
+    [status] => draft
+)
+
+[2025-06-04 11:37:06] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:37:13] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:37:13] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlkasf
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhlnasdngkasdglasdjglkasj;f</p>
+    [status] => draft
+)
+
+[2025-06-04 11:37:21] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:38:03] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:38:12] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:38:17] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:38:33] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:38:39] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:38:39] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlkasf
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhlnasdngkasdglasdjglkasj;f</p>
+    [status] => pending
+)
+
+[2025-06-04 11:38:41] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:38:47] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:38:47] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlkasfsadf
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhlnasdngkasdglasdjglkasj;sadfasdfasdfasdf</p>
+    [status] => draft
+)
+
+[2025-06-04 11:39:25] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:39:48] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: 
+[2025-06-04 11:39:48] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlkasfsadf
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhlnasdngkasdglasdjglkasj;sadfasdfasdfasdf</p>
+    [status] => published
+)
+
+[2025-06-04 11:39:50] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: published
+[2025-06-04 11:39:53] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: published
+[2025-06-04 11:40:07] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: published
+[2025-06-04 11:40:47] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: published
+[2025-06-04 11:40:54] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: published
+[2025-06-04 11:40:54] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlkasfsadf
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhlnasdngkasdglasdjglkasj;sadfasdfasdfasdf</p>
+    [status] => draft
+)
+
+[2025-06-04 11:40:59] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:41:02] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: draft
+[2025-06-04 11:41:02] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlkasfsadf
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhlnasdngkasdglasdjglkasj;sadfasdfasdfasdf</p>
+    [status] => pending
+)
+
+[2025-06-13 18:20:41] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: published
+[2025-06-13 18:20:55] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: published
+[2025-06-13 18:20:55] User ID: 3, Article ID: 13 - Form submitted with POST data: Array
+(
+    [article_id] => 13
+    [title] => kjashdkjashlkasfsadfsdgljbnasgkbasdkfkasdlfnaskjdfsdfb
+    [category_id] => 8
+    [content] => <p>kjbkvjlfhksdafhlnasdngkasdglasdjglkasj;sadfasdfasdfasdfajknfdkjsa&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Umer</p>
+    [status] => pending
+)
+
+[2025-06-13 18:21:09] User ID: 3, Article ID: 13 - Article loaded for editing. Current status: pending
